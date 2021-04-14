@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='https://unpkg.com/ress/dist/ress.min.css'>
+  <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,500,900&amp;subset=japanese" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+
+  <title>PORTFOLIO</title>
+</head>
+
+<body>
+  <!--以下メインコンテンツ  -->
+  <div class="index">
+    <!-- ヘッダー -->
+    <header class="header">
+      <div class="header__inner">
+        <div class="header__left">
+          <a href="/" class="nav">
+            PORTFOLIO
+          </a>
+        </div>
+        <div class="header__right">
+          <a href="#about" class="header__link">about</a>
+          <a href="#work" class="header__link">work</a>
+          <a href="#contact" class="header__link">contact</a>
+        </div>
+      </div>
+    </header>
+    
+    <section class="section--main">
+      <div class="container-main">
+        <h1 class="heading--main">
+          WELCOME
+        </h1>
+        <!-- <p class="text--main">
+          自己紹介兼ポートフォリオ紹介サイトです。
+        </p> -->
+      </div>
+    </section>
+
+<!--自己紹介  -->
+    <section class="section">
+      <div id="about"></div>
+      <h1 class="heading">
+        about
+      </h1>
+      <div class="container">
+        <div class="container--flex">
+          <div class="container__left">
+            <h2 class="heading--sub">
+              大山　潤
+            </h2>
+            <p class="text">
+              関西大学電気電子情報工学科 情報通信コース　4回生<br>
+            </p>
+            <p class="text">
+              <br>
+              自身のやりたい仕事について考える機会があり、<br>
+              その際、UI,UXデザインを2020年9月頃に独学を始めました。<br>
+              現在はインターンシップとして会社でデザインの業務をこなしつつ、<br>
+              スキルを磨きながら第二新卒での採用を目指し、就職活動中です。
+            </p>
+  
+          </div>
+          <div class="container__right">
+            <img src="profile1.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- スキル -->
+    <section class="section">
+      <a id="skill"></a>
+      <div class="container">
+        <h2 class="heading">
+          skill
+        </h2>
+        <img src="skill@2x.png" alt="skill" class="container__img border-0">
+      </div>
+    </section>
+
+
+<!-- 作品紹介 -->
+    <section class="section">
+      <a id="work"></a>
+      <div class="container">
+        <h2 class="heading">
+          work
+        </h2>
+        <h3 class="heading--work-title">
+          ランディングページ
+        </h3>
+        <a href="https://tunageru.com/" target="blank">
+          <img src="portfolio1.png" alt="work1" class="container__img">
+        </a>
+      </div>
+      <div class="container">
+        <h3 class="heading--work-title">
+          webアプリ
+        </h3>
+        <img src="portfolio2.png" alt="work2" class="container__img">
+      </div>
+      <div class="container__slick">
+        <h3 class="heading--work-title">
+          広告1
+        </h3>
+        <div>
+          <img src="portfolio3.png" alt="work2" class="container__img">
+        </div>
+        <div>
+          <img src="portfolio32.png" alt="work2" class="container__img">
+        </div>
+        <div>
+          <img src="portfolio4.png" alt="work2" class="container__img">
+        </div>
+      </div>
+
+    </section>
+
+<!-- コンタクトフォーム -->
+    <section class="section">
+      <a id="contact"></a>
+      <div class="container">
+        <h2 class="heading">
+          contact
+        </h2>
+        <div class="container__form">
+          <label for="name" class="text">お名前</label>
+          <input type="name" class="form-box">
+        </div>
+        <div class="container__form">
+          <label for="email" class="text">メールアドレス</label>
+          <input type="email" class="form-box">
+        </div>
+        <div class="container__form">
+          <label for="name" class="text">お問い合わせ内容</label>
+          <textarea name="" id="" cols="30" rows="10" class="form-box"></textarea>
+        </div>
+        <a href="" class="button">送信</a>
+      </div>
+    </section>
+
+<!-- フッター -->
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__top">
+          <a href="#about" class="footer__link">about</a>
+          <a href="#work" class="footer__link">work</a>
+          <a href="#contact" class="footer__link">contact</a>
+        </div>
+        <div class="footer__bottom">
+          <p class="text--copyrights">
+            ©︎OYAMA JUN All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+<!-- ローディング -->
+
+  <!-- {{-- <div class="loading">
+    <div>
+        <img src="/images/lp/header_logo.png" alt="logo"  class="loading__logo">
+    </div>
+</div> --}} -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+  
+
+</body>
+
+</html>

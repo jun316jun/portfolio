@@ -1,0 +1,223 @@
+// メディアクレエリ
+
+@mixin tab {
+  @media (max-width : 960px) {
+    @content;
+  }
+}
+@mixin sp {
+  @media (max-width : 560px) {
+    @content;
+  }
+}
+
+// メインコンテンツ
+.index{
+  width: 100%;
+}
+
+.header{
+  height: 66px;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding: 0 36px;
+    
+  }
+  &__left{
+    align-items: center;
+    color: #fff;
+    padding: 10px 0;
+    font-weight: bold;
+  }
+  &__right{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+  }
+  &__link{
+    padding-left: 16px;
+    color: #fff!important;
+    text-decoration: none;
+    &:hover{
+      color:#787878!important;
+    }
+  }
+}
+
+// グローバルナビ
+.nav{
+  font-family: "Source Han Sans";
+font-weight: bold;
+font-size: 16px;
+letter-spacing: 0.05em;
+text-align: left;
+color: #fff;
+text-decoration: none;
+&:hover{
+  color:#787878 ;
+ }
+}
+
+// コンテンツ
+.section,%section{
+  padding: 50px 0;
+  text-align: center;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+  @include sp() {
+    width: 85%;
+    margin: 0 auto;
+    padding: 25px 0
+  }
+  @include tab() {
+  }
+  &--brown{
+    @extend %section;
+    // background-color: #F0EEE9;
+    
+  }
+  
+  &--main{
+    height: 88vh;
+    text-align: center;
+    margin-bottom: 50px;
+    background-image: url(../section-bg.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+}
+.container{
+  margin:0 0;
+  padding: 0 0;
+  flex-direction: column;
+  &--flex{
+    padding-left: 48px;
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    @include sp(){
+      padding: 0;
+      flex-direction: column-reverse;
+    }
+  }
+  &__item{
+    text-align: left;
+  }
+  &__img{
+    width: 75%;
+    margin: 50px 0;
+    border: #444444 solid 1px;
+    @include sp(){
+      width: 100%;
+      margin:24px 0;
+    }
+  }
+  &__form{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 32px;
+  }
+  &__right{
+    width: 100%;
+    text-align: center;
+  }
+  &__left{
+    width: 100%;
+  }
+}
+.form-box{
+  background: #EDEFF1;
+}
+
+// タイトル
+.heading{
+  text-align:left;
+  padding-bottom: 50px;
+  font-size: 48px;
+  font-family: 'Damion', cursive;
+  @include sp(){
+    padding-bottom:24px;
+  }
+  &--main{
+    font-family: "Courier New";
+    font-weight: normal;
+    font-size: 100px;
+    letter-spacing: 0.03em;
+    color: #fff;
+    font-weight: bold;
+    line-height: 88vh;
+    @include sp(){
+      font-size: 40px;
+    }
+  }
+  &--sub{
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 32px;
+  }
+  &--work-title{
+    font-size: 24px;
+    padding-left: 12.5%;
+    text-align: left;
+  }
+}
+
+// テキスト
+.text{
+  font-size: 16px;
+  text-align: left;
+  line-height: 32px;
+  &--main{
+    font-family: "Source Han Sans";
+    letter-spacing: 0.03em;
+     color: #fff;
+  }
+  &--copyrights{
+    color: #fff;
+    font-size: 10px;
+    padding-top: 16px;
+  }
+}
+
+// フッター
+.footer{
+  margin-top: 200px;
+  width: 100%;
+  z-index: 100;
+  background:#444444 ;
+  &__inner{
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 100px 36px;
+    }
+    &__link{
+      color: #fff;
+      font-size: 16px;
+      text-decoration: none;
+      padding-right: 16px;
+      &:hover{
+        color:#787878 ;
+      }
+    }
+  }
+  
+
+ //ボタン 
+.button{
+    background-color: #444444;
+    color: #fff;
+    padding: 8px 96px;
+    text-decoration: none;
+    &:hover{
+      background-color:#787878 ;
+      color: #fff;
+    }
+  }

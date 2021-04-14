@@ -1,0 +1,262 @@
+.index {
+  width: 100%;
+}
+
+.header {
+  height: 66px;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding: 0 36px;
+}
+
+.header__left {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.header__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0;
+}
+
+.header__link {
+  padding-left: 16px;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  color: #787878 !important;
+}
+
+.nav {
+  font-family: "Source Han Sans";
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav:hover {
+  color: #787878;
+}
+
+.section, .section--brown {
+  padding: 50px 0;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+@media (max-width: 560px) {
+  .section, .section--brown {
+    width: 85%;
+    margin: 0 auto;
+    padding: 25px 0;
+  }
+}
+
+.section--main {
+  height: 88vh;
+  text-align: center;
+  margin-bottom: 50px;
+  background-image: url(../section-bg.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.container {
+  margin: 0 0;
+  padding: 0 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container--flex {
+  padding-left: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #000;
+}
+
+@media (max-width: 560px) {
+  .container--flex {
+    padding: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.container__item {
+  text-align: left;
+}
+
+.container__img {
+  width: 75%;
+  margin: 50px 0;
+  border: #444444 solid 1px;
+}
+
+@media (max-width: 560px) {
+  .container__img {
+    width: 100%;
+    margin: 24px 0;
+  }
+}
+
+.container__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 32px;
+}
+
+.container__right {
+  width: 100%;
+  text-align: center;
+}
+
+.container__left {
+  width: 100%;
+}
+
+.form-box {
+  background: #EDEFF1;
+}
+
+.heading {
+  text-align: left;
+  padding-bottom: 50px;
+  font-size: 48px;
+  font-family: 'Damion', cursive;
+}
+
+@media (max-width: 560px) {
+  .heading {
+    padding-bottom: 24px;
+  }
+}
+
+.heading--main {
+  font-family: "Courier New";
+  font-weight: normal;
+  font-size: 100px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  font-weight: bold;
+  line-height: 88vh;
+}
+
+@media (max-width: 560px) {
+  .heading--main {
+    font-size: 40px;
+  }
+}
+
+.heading--sub {
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 32px;
+}
+
+.heading--work-title {
+  font-size: 24px;
+  padding-left: 12.5%;
+  text-align: left;
+}
+
+.text {
+  font-size: 16px;
+  text-align: left;
+  line-height: 32px;
+}
+
+.text--main {
+  font-family: "Source Han Sans";
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.text--copyrights {
+  color: #fff;
+  font-size: 10px;
+  padding-top: 16px;
+}
+
+.footer {
+  margin-top: 200px;
+  width: 100%;
+  z-index: 100;
+  background: #444444;
+}
+
+.footer__inner {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  padding: 100px 36px;
+}
+
+.footer__link {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  padding-right: 16px;
+}
+
+.footer__link:hover {
+  color: #787878;
+}
+
+.button {
+  background-color: #444444;
+  color: #fff;
+  padding: 8px 96px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #787878;
+  color: #fff;
+}
+/*# sourceMappingURL=index.css.map */
