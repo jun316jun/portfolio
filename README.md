@@ -1,4 +1,5 @@
 # ジムトモ
+[![タイトル](https://www.gymtomo.com/images/ogp.png)](https://example.com)
 
 ジムトモは週に何回ジムに通うかの目標を設定し、友達と進捗を共有するWebアプリです💪
 特徴としてはLINE上で完結し、位置情報を元にジムにチェックインすることができます。
