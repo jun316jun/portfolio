@@ -36,11 +36,8 @@ https://note.com/jiji_uiux/n/nbc1b351b387d
 詳細なデザインプロセスや工夫については、上記のNote記事で詳述しています。
 
 ## 📊 結果・成果
-リリース後、**2ヶ月でユーザー数が100人を突破**しました。
-
-
-
-
+リリース後、**2ヶ月でユーザー数が100人を突破**しました。      
+<br><br>
 
 # エペタム - Apex Legendsの試合結果自動集計アプリ
 [![タイトル](https://apetamu.com/images/apetamu_ogp.png)](https://apetamu.com/)
