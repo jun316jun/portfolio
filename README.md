@@ -16,7 +16,9 @@
 
 ## ジムトモ
 
-[![gymtomo](https://www.gymtomo.com/images/ogp.png)](https://www.gymtomo.com)
+<a href="https://www.gymtomo.com/">
+  <img src="https://www.gymtomo.com/images/ogp.png" width="700">
+</a>
 
 ジムトモは「週に何回ジムに通うか」の目標を設定し、友達と進捗を共有できるWebアプリです💪  
 LINE上で完結し、位置情報を使ってジムにチェックインできるため、記録に“嘘がつけない”仕様になっています。
@@ -79,8 +81,9 @@ LPやOGPのクリエイティブ制作では、PinterestやLP advanceを参考�
 ---
 
 ## エペタム
-
-[![apetamu](https://apetamu.com/images/apetamu_ogp.png)](https://apetamu.com)
+<a href="https://apetamu.com">
+  <img src="https://apetamu.com/images/apetamu_ogp.png" width="700">
+</a>
 
 エペタムはFPSゲーム『Apex Legends』の試合結果を**自動で集計**するWebアプリです🎮  
 APIを活用した自動集計、結果の画像出力やURL共有によって、大会主催者が簡単に運営・発信できる仕組みを提供しています。
