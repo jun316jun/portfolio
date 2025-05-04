@@ -46,7 +46,7 @@ LINE上で完結し、位置情報を使ってジムにチェックインでき�
 
 MobbinやUI Pocketを参考に、類似サービスを調査。必要な機能や遷移を洗い出し、ワイヤーフレームを作成しました。
 
-<img src="/images/wire.png" alt="ワイヤーフレーム" width="600">
+<img src="/images/wire.png" alt="ワイヤーフレーム">
 
 #### 3. デザイン作成
 
